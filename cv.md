@@ -4,12 +4,12 @@
   ##  _Phone:_ +375(29)3309017 
   ##  _E-mail:_ Kozikvit@gmail.com
   ___
-###Skills:
+### Skills:
 + Markdown & Git
 + HTML5
 + CSS
 ___
-####Work experience:
+#### Work experience:
 
 **System administrator.**
 ___
