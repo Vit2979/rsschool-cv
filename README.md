@@ -1,1 +1,1 @@
-https://vit2979.github.io/rsschool-cv/cv
+https://github-vit2979.github.io/rsschool-cv/
