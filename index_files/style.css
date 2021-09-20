@@ -23,14 +23,14 @@ main {
   margin-right: auto ;
   width: 580px;
   height: 1230px;
-  background: #e40b0b;
+  background: white;
   font-style:  oblique ;
 }
 
 aside {
   color: #ffffff;
-  background: black            /* #4d4d4d */;
-
+          /* #4d4d4d */;
+          background: -webkit-linear-gradient(top, #0f0a27, white);
   width: 200px;
   height: 1192px;
   text-align: start;
@@ -46,7 +46,7 @@ A {
 
 
 .javascript {
-  background: #e40b0b;
+  
   text-align: start;
   font-size:80%;
   }
@@ -152,7 +152,7 @@ h5 {
     margin-top: auto;
     margin-left: 0px;
     
-    background-color: #c2b4b4;
+    background-color: #e1def0;
   }
       
 
