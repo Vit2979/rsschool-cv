@@ -1,5 +1,6 @@
 html {
     background: #dfdada;
+    scroll-behavior: smooth;
 }
 
 main {
@@ -139,7 +140,7 @@ h5 {
     margin-left: 150px;
 }
 
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 600px) {
     .photo {
         margin-top: 10px;
         margin-left: auto;
