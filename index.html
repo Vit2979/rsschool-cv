@@ -12,16 +12,16 @@
 
 <body class="body">
 
-    </div>
-    <nav class="nav">
-        <a href="#enumeration">Contacts</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Work">Work experience</a>
-        <a href="#Education">Education</a>
-        <a href="#English">English</a>
-        <a href="#projects">Projects</a>
-        <a href="#video">Video</a>
-    </nav>
+    <div>
+        <nav class="nav">
+            <a href="#enumeration">Contacts</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Work">Work experience</a>
+            <a href="#Education">Education</a>
+            <a href="#English">English</a>
+            <a href="#projects">Projects</a>
+            <a href="#video">Video</a>
+        </nav>
     </div>
 
     <main>
@@ -31,73 +31,67 @@
                 <img src="./index_files/Avatarka.jpg" alt="Photo Vit" class="photo">
             </figure> <br>
 
-            <enumeration class="enumeration" id="enumeration">
-                <ul>
-                    <li> Phone: </li>
-                    <strong><a href=" tel:+375293309017"> +375(29)3309017</a> </strong> <br><br>
-                    <li>E-mail: </li>
-                    <a href="mailto:Kozikvit@gmail.com"> Kozikvit@gmail.com</a><br><br>
-                    <li>Viber: </li>
-                    <a href="viber://chat?number=%2B375293309017">+375(29)3309017</a> <br><br>
-                    <li> Discord: Vit2979</li>
-                </ul>
-            </enumeration>
+            <section class="enumeration" id="enumeration">
+                <h4>Contacts:</h4>
+                     <ul> <li>Phone: </li></ul> 
+                     <h6><a href="tel:+375293309017"> +375(29)3309017</a></h6>              
+                    <ul><li> E-mail: </li></ul>
+                    <h6><a href="mailto:Kozikvit@gmail.com"> Kozikvit@gmail.com</a></h6>
+                    <ul><li> Viber:</li></ul>
+                    <h6><a href="viber://chat?number=%2B375293309017">+375(29)3309017</a></h6>
+                    <ul><li>Discord: Vit2979</li></ul>
+            </section>
+         
         </aside>
         <header class="header">
             <h1>Vital Kozik</h1>
         </header>
 
-        <section class="Skills" id="Skills"></section>
-        <p>
-            <h3 class="Skills">Skills</h3>
-        </p>
+        <section class="Skills" id="Skills">
+       
+            <h3>Skills</h3>
+       
 
         <ul>
             <li>HTML5</li>
             <li>CSS</li>
-            <li>Java&nbspScript</li>
+            <li>Java&nbsp;Script</li>
         </ul>
         </section>
 
         <section class="Work" id="Work">
-            <p>
+        
                 <h3 class="Work_title">Work experience</h3>
-            </p>
+          
             <p>System administrator</p>
         </section>
 
         <section class="Education" id="Education">
-            <p>
+           
                 <h3 class="Education_title">Education</h3>
-            </p>
+          
             <p>Mogilev State Technical University</p>
         </section>
 
         <section class="English" id="English">
-            <p>
+        
                 <h3 class="English_title">English level</h3>
-            </p>
+        
             <p>Pre-intermediate</p>
         </section>
 
-        <section class="Projects" id="projects">
-
-            <p>
-                <h4 class="projects_title">My projects</h4>
-            </p>
+        <section class="Projects" id="projects">        
+                <h4 class="projects_title">My projects</h4>       
             <p>Custom HTML5 Video Player is a video player that is executed in accordance with the designer's intention and the appearance of which does not depend on the browser or device used. HTML,CSS and JS </p>
             <div class="link">
-                <a base target="_blank" href="https://rolling-scopes-school.github.io/vit2979-JSFEPRESCHOOL/custom-video-player/"><img src="./index_files/CustomVideoPlayer.jpg" alt="Photo" class="photo_projects"></a><br>
-
+                <a target="_blank" href="https://rolling-scopes-school.github.io/vit2979-JSFEPRESCHOOL/custom-video-player/"><img src="./index_files/CustomVideoPlayer.jpg" alt="Photo" class="photo_projects"></a><br>
                 <p>JS Clock - mechanical clock with moving hands. HTML,CSS and JS </p>
-                <a base target="_blank" href="https://rolling-scopes-school.github.io/vit2979-JSFEPRESCHOOL/js30/js30.html"><img src="./index_files/Clock.jpg" alt="Photo" class="photo_projects"></a>
+                <a target="_blank" href="https://rolling-scopes-school.github.io/vit2979-JSFEPRESCHOOL/js30/js30.html"><img src="./index_files/Clock.jpg" alt="Photo" class="photo_projects"></a>
             </div>
         </section>
-        <article>
 
-            <p>
-                <h5>Code example</h5>
-            </p>
+        <article>
+            <h5>Code example</h5>          
             <pre><code class              = "javascript">
            document.onkeydown = function acceleration(n) {  
 if (n.keyCode == '75') {togglePlay();}  
@@ -106,18 +100,19 @@ else if (n.keyCode == '77'){toggleVolume();}
 else if (n.keyCode == '76'){video.currentTime+= 10;}  
 </code></pre>
         </article>
-        <section class="video" id="video"></section>
-        <p> Video summary</p>
-        <iframe width="40%" height="10%" src="https://www.youtube.com/embed/uBd3VvB6GbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section class="video" id="video">
+        <h5 class="video_title">Video summary</h5>  
+        
+        <iframe src="https://www.youtube.com/embed/uBd3VvB6GbM" title="YouTube video player" style="border-width:0px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
-
-        <footer class="footer">
-            <a base target="_blank" href="https://github.com/vit2979"><img src="./index_files/Github.png" alt="Photo_github" class="photo_github"></a>
+  
+    <footer class="footer">
+            <a  target="_blank" href="https://github.com/vit2979"><img src="./index_files/Github.png" alt="Photo_github" class="photo_github"></a>
             <time class="footer-text" id="time">2021</time>
-            <a base target="_blank" href="https://rs.school/js/"><img src="https://app.rs.school/static/images/logo-rsschool3.png" alt="Photo_RSS" class="photo_RSS"></a>
-    </main>
+            <a  target="_blank" href="https://rs.school/js/"><img src="https://app.rs.school/static/images/logo-rsschool3.png" alt="Photo_RSS" class="photo_RSS"></a>
+   
     </footer>
-
+</main>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
     <script>
         hljs.initHighlightingOnLoad();
