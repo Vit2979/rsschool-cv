@@ -26,6 +26,7 @@ ___
 <pre>
 <code>
 
+
 const square = (num) => {
   return num * num;
 };
