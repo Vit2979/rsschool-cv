@@ -9,7 +9,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 580px;
-    height: 1300px;
+    height: 1200px;
     background: white;
     font-style: oblique;
 }
@@ -18,7 +18,7 @@ main {
     color: #ffffff;
     background: -webkit-linear-gradient(top, #0f0a27, white);
     width: 200px;
-    height: 1150px;
+    height: 1250px;
     text-align: start;
     float: left;
     font-style: normal;
