@@ -1,0 +1,214 @@
+html {
+    background: #dfdada;
+    scroll-behavior: smooth;
+}
+
+main {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+    height: 1003px;
+    background: white;
+    font-style: oblique;
+}
+
+.aside {
+    color: #ffffff;
+    background: -webkit-linear-gradient(top, #0f0a27, white);
+    width: 200px;
+    height: 1060px;
+    text-align: start;
+    float: left;
+    font-style: normal;
+}
+
+A {
+    color: white;
+}
+
+.javascript {
+    text-align: start;
+    font-size: 80%;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    margin: 0.1em;
+}
+
+h1 {
+    font-size: 150%;
+    padding: 1em;
+}
+
+h2 {
+    font-size: 120%;
+}
+
+h3 {
+    font-size: 110%;
+}
+
+h4 {
+    font-size: 100%;
+}
+
+h5 {
+    font-size: 90%;
+    margin: 0.01em;
+}
+
+h6 {
+    margin-top: 2em;
+    margin-left: 3em;  
+    font-size: 90%;
+}
+.photo {
+    margin-top: 30px;
+    --photo-size: 130px;
+    width: var(--photo-size);
+    height: var(--photo-size);
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.photo_projects {
+    margin-top: 0px;
+    width: 200px;
+    height: 100%;
+    margin-right: 0px;
+}
+
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.introduction {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.enumeration {
+    color: #ffffff;
+    margin-top: 50px;
+    
+}
+
+.photo_RSS {
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 10%;
+    height: auto;
+}
+
+.photo_github {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 5%;
+    height: auto;
+}
+
+.time {
+    display: block;
+    font-style: italic;
+    font-size: 20%;
+    margin-left: 110px;
+}
+
+.footer {
+    height: 50px;
+    margin-top: -13px;
+    margin-left: 0px;
+    background-color: #e1def0;
+}
+
+.footer-text {
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .photo {
+        margin-top: 10px;
+        margin-left: auto;
+        --photo-size: 100px;
+        border-radius: 50%;
+    }
+    .aside {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        background: #0f0a27;
+        font-size: 90%;
+    }
+    main {
+        margin-top: 10px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: auto;
+        background: white;
+        font-style: oblique;
+        font-size: 90%;
+    }
+    .javascript {
+        text-align: start;
+        font-size: 60%;
+    }
+    .enumeration {
+        font-size: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .photo_RSS {
+        width: 10%;
+        height: auto;
+    }
+    .photo_github {
+        margin-left: auto;
+        margin-top: 5px;
+        width: 5%;
+        height: auto;
+    }
+    .time {
+        font-size: 20%;
+        margin-left: 0px;
+        text-align: center;
+    }
+    
+    .footer {
+        height: auto;
+        margin-top: auto;
+        margin-left: 0px;
+    }
+    .footer-text {
+        margin-left: auto;
+    }
+    .nav {
+        font-size: 0.5em;
+        width: 90%;
+    }
+    ul {
+        margin-right: 15%;
+    }
+}
